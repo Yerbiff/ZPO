@@ -9,7 +9,7 @@ AT THE TOP OF THIS README ADD AN IMAGE/GIF WITH EXAMPLE MODEL PREICTION, AS A BA
 - dataset with annotations in [roboflow](https://app.roboflow.com/poolsearch2024/pool_searching/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 - what format for data and
 - how to load data
-'''
+```
 !mkdir {HOME}/datasets
 %cd {HOME}/datasets
 
@@ -23,7 +23,7 @@ rf = Roboflow(api_key="YOUR_API_KEY")
 project = rf.workspace("poolsearch2024").project("pool_searching")
 version = project.version(3)
 dataset = version.download("yolov11")
-'''
+```
 
 ## Training
 - what network, how trained, what parameters
