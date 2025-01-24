@@ -28,6 +28,24 @@ dataset = version.download("yolov11")
 *YOUR_API_KEY - znajdziesz go w ustawieniach po założeniu konta na roboflow.com 
 
 ## Training
+- Colab Environment Setup - Installation Steps:
+```
+!nvidia-smi
+```
+Let's make sure that we have access to GPU. We can use nvidia-smi command to do that. In case of any problems navigate to Edit -> Notebook settings -> Hardware accelerator, set it to GPU, and then click Save.
+```
+import os
+HOME = os.getcwd()
+print(HOME)
+```
+NOTE: To make it easier for us to manage datasets, images and models we create a HOME constant.
+```
+%pip install "ultralytics<=8.3.40" supervision roboflow
+import ultralytics
+ultralytics.checks()
+```
+Install YOLO11 via Ultralytics
+
 - what network, how trained, what parameters
 - what augmentation methods used
 - what script to run the training
