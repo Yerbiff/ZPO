@@ -128,8 +128,8 @@ Below are example images from the dataset:
 Here are examples of the model's good and bad predictions:  
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/9175397c-b6ec-46e8-918f-e7225e8b1904" alt="Good Prediction 1" width="45%" />
-  <img src="https://github.com/user-attachments/assets/4f6e04e9-7db2-4918-ad5c-7f6a64f88c69" alt="Good Prediction 2" width="55%" />
+  <img src="https://github.com/user-attachments/assets/9175397c-b6ec-46e8-918f-e7225e8b1904" alt="Good Prediction 1" width="35%" />
+  <img src="https://github.com/user-attachments/assets/4f6e04e9-7db2-4918-ad5c-7f6a64f88c69" alt="Good Prediction 2" width="45%" />
 </div>
 
 <div align="center">
