@@ -26,7 +26,7 @@ project = rf.workspace("poolsearch2024").project("pool_searching")
 version = project.version(3)
 dataset = version.download("yolov11")
 ```
-*YOUR_API_KEY - znajdziesz go w ustawieniach po założeniu konta na roboflow.com 
+*YOUR_API_KEY - you can find it when register on roboflow.com
 
 ## Colab Environment Setup - Installation Steps
 ```
