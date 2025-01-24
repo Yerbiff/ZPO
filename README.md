@@ -27,8 +27,7 @@ dataset = version.download("yolov11")
 ```
 *YOUR_API_KEY - znajdziesz go w ustawieniach po założeniu konta na roboflow.com 
 
-## Training
-- Colab Environment Setup - Installation Steps:
+## Colab Environment Setup - Installation Steps
 ```
 !nvidia-smi
 ```
