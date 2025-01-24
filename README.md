@@ -157,18 +157,19 @@ For the test dataset, the model detected:
 - 1 out of 2 permanent pools
 
 ## Trained model in ONNX ready for `Deepness` plugin
-- model uploaded to [PUTCloud](https://chmura.student.put.poznan.pl/s/xiPbM53dpgvoV0K)
+- model uploaded to [PUTCloud](https://chmura.student.put.poznan.pl/s/zq8XcdXL15uYN9z)
 - script used to convert the model to ONNX and add the metadata to it - ONNX_convert.py
 
 ## Demo instructions and video
-- a short video of running the model in Deepness (no need for audio), preferably converted to GIF
-- what ortophoto to load in QGIS and what physical place to zoom-in. E.g. Poznan 2022 zoomed-in at PUT campus
-- showing the results of running the model
+![xd2_QGIS_2025-01-24_15-39-06](https://github.com/user-attachments/assets/b2c32c1d-9191-49b4-bc18-8da398ff1974)
+
+- ortophoto to load in QGIS: 'Poznan 2023 aerial orthophoto high resolution'
+- place to zoom: 52.362475, 16.881612
+
+![image](https://github.com/user-attachments/assets/8269b100-6371-4997-9322-10712e8e33e8)
+
 
 ## People
 __Yerbiff__ - [Github](https://github.com/Yerbiff) (Jarosław Kuźma 147617)
 
 __the_HaUBe__ - [Github](https://github.com/theHaUBe) (Hubert Górecki 147599)
-
-## Other information
-Feel free to add other information here.
