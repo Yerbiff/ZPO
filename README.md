@@ -3,7 +3,7 @@ AT THE TOP OF THIS README ADD AN IMAGE/GIF WITH EXAMPLE MODEL PREICTION, AS A BA
 
 
 ## Dataset
-- photos exported from QGIS - Poznan 2023 aerial orthophoto high resolution
+- photos extracted from QGIS - Poznan 2023 aerial orthophoto high resolution
 - 6382 annotations [376 free-standing-pool, 36 permanent-pool, 18 pond, 5953 none]
 - resolution: 10 cm/pixel
 - input window size: 512x512 pixels
@@ -25,7 +25,7 @@ project = rf.workspace("poolsearch2024").project("pool_searching")
 version = project.version(3)
 dataset = version.download("yolov11")
 ```
-* znajdziesz go w ustawieniach po założeniu konta na roboflow.com 
+*znajdziesz go w ustawieniach po założeniu konta na roboflow.com 
 
 ## Training
 - what network, how trained, what parameters
