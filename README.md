@@ -3,10 +3,10 @@ AT THE TOP OF THIS README ADD AN IMAGE/GIF WITH EXAMPLE MODEL PREICTION, AS A BA
 
 
 ## Dataset
-- on what data trained
-- how many annotations
+- photos from Poznan 2023 aerial orthophoto high resolution
+- 6382 annotations [376 free-standing-pool, 36 permanent-pool, 18 pond, 5953 none]
 - how the data was prepared (e.g. preprocessed)
-- store the dataset with annotations in XXX and provide a link here
+- dataset with annotations in [roboflow](https://app.roboflow.com/poolsearch2024/pool_searching/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 - what format for data and how to load it
 
 ## Training
