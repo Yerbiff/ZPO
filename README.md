@@ -110,7 +110,7 @@ The best-performing model weights will be saved at:
 ## Results
 
 ### Example Images from Dataset
-Below are example images from the dataset, arranged side by side for better visualization:  
+Below are example images from the dataset:  
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/50033680-8c85-47b1-9f17-6185144ef5bb" alt="Dataset Example 1" width="45%" />
@@ -129,7 +129,7 @@ Here are examples of the model's good and bad predictions:
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/9175397c-b6ec-46e8-918f-e7225e8b1904" alt="Good Prediction 1" width="45%" />
-  <img src="https://github.com/user-attachments/assets/4f6e04e9-7db2-4918-ad5c-7f6a64f88c69" alt="Good Prediction 2" width="45%" />
+  <img src="https://github.com/user-attachments/assets/4f6e04e9-7db2-4918-ad5c-7f6a64f88c69" alt="Good Prediction 2" width="55%" />
 </div>
 
 <div align="center">
