@@ -46,6 +46,87 @@ ultralytics.checks()
 ```
 Install YOLO11 via Ultralytics
 
+## Training Configuration
+
+### Network
+- Model: YOLO v11s (base model)
+- Pretrained weights: `yolo11s.pt`
+
+### Training Parameters
+- Task: Object Detection
+- Training Epochs: 100
+- Image Size: 640x640 pixels
+- Batch Size: 16
+- Learning Rate: 0.001
+- Optimizer: AdamW
+- Warmup Epochs: 3
+
+### Data Augmentation Techniques
+- HSV Color Space Augmentation:
+  - Hue Shift: ±0.015
+  - Saturation Shift: 0.7
+  - Value Shift: 0.4
+- Geometric Transformations:
+  - Rotation: ±10 degrees
+  - Translation: 0.1
+  - Scale: 0.5
+- Flipping:
+  - Horizontal Flip: 0.5 probability
+  - Vertical Flip: 0.3 probability
+- Advanced Augmentations:
+  - Mosaic: 1.0
+  - Mixup: 0.1
+  - Copy-Paste: 0.1
+
+## Training Script
+```bash
+yolo task=detect \
+     mode=train \
+     model=yolo11s.pt \
+     data={dataset.location}/data.yaml \
+     epochs=100 \
+     imgsz=640 \
+     batch=16 \
+     lr0=0.001 \
+     optimizer='AdamW' \
+     warmup_epochs=3 \
+     hsv_h=0.015 \
+     hsv_s=0.7 \
+     hsv_v=0.4 \
+     degrees=10.0 \
+     translate=0.1 \
+     scale=0.5 \
+     fliplr=0.5 \
+     flipud=0.3 \
+     mosaic=1.0 \
+     mixup=0.1 \
+     copy_paste=0.1 \
+     plots=True
+```
+
+## Model Export
+The best-performing model weights will be saved at:
+`{HOME}/runs/detect/train/weights/best.pt`
+
+### Google Colab Export
+```python
+from google.colab import drive
+import os
+import torch
+
+# Mount Google Drive
+drive.mount('/content/drive')
+
+# Copy trained model to Google Drive
+model_path = f"{HOME}/runs/detect/train/weights/best.pt"
+drive.copy(model_path, '/content/drive/My Drive/trained_yolo_model.pt')
+```
+
+## Notes
+- Ensure your `data.yaml` is properly configured with dataset paths and class information
+- Adjust augmentation parameters based on your specific dataset characteristics
+- Monitor training logs for performance metrics
+
 - what network, how trained, what parameters
 - what augmentation methods used
 - what script to run the training
