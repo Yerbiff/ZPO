@@ -151,7 +151,10 @@ The following charts summarize the model's performance on the test and train dat
   <img src="https://github.com/user-attachments/assets/856c8011-256c-4e15-9141-805cf4cc5df4" alt="Metrics Chart 3" width="90%" />
 </div>
 
-
+For the test dataset, the model detected:
+- 36 out of 36 freestanding pools
+- 0 out of 4 ponds
+- 1 out of 2 permanent pools
 
 ## Trained model in ONNX ready for `Deepness` plugin
 - model uploaded to XXX and a LINK_HERE
