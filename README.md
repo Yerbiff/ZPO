@@ -1,5 +1,5 @@
 # ZPO Project - Your Deepness Model
-AT THE TOP OF THIS README ADD AN IMAGE/GIF WITH EXAMPLE MODEL PREICTION, AS A BANNER
+![image](https://github.com/user-attachments/assets/9a5ae799-d37d-4b24-bfa5-5f5ffd384582)
 
 
 ## Dataset
