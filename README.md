@@ -25,7 +25,7 @@ project = rf.workspace("poolsearch2024").project("pool_searching")
 version = project.version(3)
 dataset = version.download("yolov11")
 ```
-*znajdziesz go w ustawieniach po założeniu konta na roboflow.com 
+*YOUR_API_KEY - znajdziesz go w ustawieniach po założeniu konta na roboflow.com 
 
 ## Training
 - what network, how trained, what parameters
