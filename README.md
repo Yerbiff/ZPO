@@ -157,9 +157,8 @@ For the test dataset, the model detected:
 - 1 out of 2 permanent pools
 
 ## Trained model in ONNX ready for `Deepness` plugin
-- model uploaded to XXX and a LINK_HERE
-- model have to be in the ONNX format, including metadata required by `Deepness` plugin (spatial resolution, thresholds, ...)
-- name of the script used to convert the model to ONNX and add the metadata to it
+- model uploaded to [PUTCloud](https://chmura.student.put.poznan.pl/s/xiPbM53dpgvoV0K)
+- script used to convert the model to ONNX and add the metadata to it - ONNX_convert.py
 
 ## Demo instructions and video
 - a short video of running the model in Deepness (no need for audio), preferably converted to GIF
