@@ -32,7 +32,9 @@ AT THE TOP OF THIS README ADD AN IMAGE/GIF WITH EXAMPLE MODEL PREICTION, AS A BA
 - showing the results of running the model
 
 ## People
-- who worked on the project
+__Yerbiff__ - [Github](https://github.com/Yerbiff) (Jarosław Kuźma 147617)
+
+__the_HaUBe__ - [Github](https://github.com/theHaUBe) (Hubert Górecki 147599)
 
 ## Other information
 Feel free to add other information here.
