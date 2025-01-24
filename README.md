@@ -108,22 +108,49 @@ The best-performing model weights will be saved at:
 `{HOME}/runs/detect/train/weights/best.pt`
 
 ## Results
-- Example images from dataset
-![image](https://github.com/user-attachments/assets/50033680-8c85-47b1-9f17-6185144ef5bb)
-![image](https://github.com/user-attachments/assets/003230dd-a28a-4e6c-a499-f5bbf5ce4875)
-![image](https://github.com/user-attachments/assets/2b568263-d758-4c2d-a78d-8795c374565f)
-![image](https://github.com/user-attachments/assets/b0830833-7049-488d-a1f1-683327e44ffe)
 
-- Examples of good and bad predictions
-![image](https://github.com/user-attachments/assets/9175397c-b6ec-46e8-918f-e7225e8b1904)
-![image](https://github.com/user-attachments/assets/4f6e04e9-7db2-4918-ad5c-7f6a64f88c69)
-![image](https://github.com/user-attachments/assets/d1a58206-31b1-41e6-a7dd-6c5b2876136c)
-![image](https://github.com/user-attachments/assets/5311f593-27de-490c-abdc-9a799bb6de14)
+### Example Images from Dataset
+Below are example images from the dataset, arranged side by side for better visualization:  
 
-- Metrics on the test and train dataset
-![image](https://github.com/user-attachments/assets/ff725ac3-6da1-449e-ab38-c6e08397dac6)
-![image](https://github.com/user-attachments/assets/d7cd69ea-e5ff-4538-a12f-afd733379ace)
-![image](https://github.com/user-attachments/assets/856c8011-256c-4e15-9141-805cf4cc5df4)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/50033680-8c85-47b1-9f17-6185144ef5bb" alt="Dataset Example 1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/003230dd-a28a-4e6c-a499-f5bbf5ce4875" alt="Dataset Example 2" width="45%" />
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2b568263-d758-4c2d-a78d-8795c374565f" alt="Dataset Example 3" width="45%" />
+  <img src="https://github.com/user-attachments/assets/b0830833-7049-488d-a1f1-683327e44ffe" alt="Dataset Example 4" width="45%" />
+</div>
+
+---
+
+### Examples of Good and Bad Predictions
+Here are examples of the model's good and bad predictions:  
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9175397c-b6ec-46e8-918f-e7225e8b1904" alt="Good Prediction 1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/4f6e04e9-7db2-4918-ad5c-7f6a64f88c69" alt="Good Prediction 2" width="45%" />
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d1a58206-31b1-41e6-a7dd-6c5b2876136c" alt="Bad Prediction 1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/5311f593-27de-490c-abdc-9a799bb6de14" alt="Bad Prediction 2" width="45%" />
+</div>
+
+---
+
+### Metrics on the Test and Train Dataset
+The following charts summarize the model's performance on the test and train datasets:  
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ff725ac3-6da1-449e-ab38-c6e08397dac6" alt="Metrics Chart 1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/d7cd69ea-e5ff-4538-a12f-afd733379ace" alt="Metrics Chart 2" width="45%" />
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/856c8011-256c-4e15-9141-805cf4cc5df4" alt="Metrics Chart 3" width="90%" />
+</div>
+
 
 
 ## Trained model in ONNX ready for `Deepness` plugin
