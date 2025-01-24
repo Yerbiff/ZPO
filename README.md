@@ -107,35 +107,24 @@ yolo task=detect \
 The best-performing model weights will be saved at:
 `{HOME}/runs/detect/train/weights/best.pt`
 
-### Google Colab Export
-```python
-from google.colab import drive
-import os
-import torch
-
-# Mount Google Drive
-drive.mount('/content/drive')
-
-# Copy trained model to Google Drive
-model_path = f"{HOME}/runs/detect/train/weights/best.pt"
-drive.copy(model_path, '/content/drive/My Drive/trained_yolo_model.pt')
-```
-
-## Notes
-- Ensure your `data.yaml` is properly configured with dataset paths and class information
-- Adjust augmentation parameters based on your specific dataset characteristics
-- Monitor training logs for performance metrics
-
-- what network, how trained, what parameters
-- what augmentation methods used
-- what script to run the training
-- remember to have a fully specified Python environemnt (Python version, requirements list with versions)
-- other instructions to reproduce the training process
-
 ## Results
-- Example images from dataset (diverse), at least 4 images
-- Examples of good and bad predictions, at least 4 images
+- Example images from dataset
+![image](https://github.com/user-attachments/assets/50033680-8c85-47b1-9f17-6185144ef5bb)
+![image](https://github.com/user-attachments/assets/003230dd-a28a-4e6c-a499-f5bbf5ce4875)
+![image](https://github.com/user-attachments/assets/2b568263-d758-4c2d-a78d-8795c374565f)
+![image](https://github.com/user-attachments/assets/b0830833-7049-488d-a1f1-683327e44ffe)
+
+- Examples of good and bad predictions
+![image](https://github.com/user-attachments/assets/9175397c-b6ec-46e8-918f-e7225e8b1904)
+![image](https://github.com/user-attachments/assets/4f6e04e9-7db2-4918-ad5c-7f6a64f88c69)
+![image](https://github.com/user-attachments/assets/d1a58206-31b1-41e6-a7dd-6c5b2876136c)
+![image](https://github.com/user-attachments/assets/5311f593-27de-490c-abdc-9a799bb6de14)
+
 - Metrics on the test and train dataset
+![image](https://github.com/user-attachments/assets/ff725ac3-6da1-449e-ab38-c6e08397dac6)
+![image](https://github.com/user-attachments/assets/d7cd69ea-e5ff-4538-a12f-afd733379ace)
+![image](https://github.com/user-attachments/assets/856c8011-256c-4e15-9141-805cf4cc5df4)
+
 
 ## Trained model in ONNX ready for `Deepness` plugin
 - model uploaded to XXX and a LINK_HERE
