@@ -1,4 +1,4 @@
-# ZPO Project - Your Deepness Model
+# ZPO Project - Pool Detection Deepness Model
 ![image](https://github.com/user-attachments/assets/78630129-0269-4f6a-af0d-039404b6e59f)
 ![image](https://github.com/user-attachments/assets/9a5ae799-d37d-4b24-bfa5-5f5ffd384582)
 
@@ -107,6 +107,7 @@ yolo task=detect \
 ## Model Export
 The best-performing model weights will be saved at:
 `{HOME}/runs/detect/train/weights/best.pt`
+- notebook template - yolo11_pool_detection_on_dataset.ipynb
 
 ## Results
 
