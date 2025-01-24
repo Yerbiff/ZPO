@@ -7,7 +7,23 @@ AT THE TOP OF THIS README ADD AN IMAGE/GIF WITH EXAMPLE MODEL PREICTION, AS A BA
 - 6382 annotations [376 free-standing-pool, 36 permanent-pool, 18 pond, 5953 none]
 - how the data was prepared (e.g. preprocessed)
 - dataset with annotations in [roboflow](https://app.roboflow.com/poolsearch2024/pool_searching/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
-- what format for data and how to load it
+- what format for data and
+- how to load data
+'''
+!mkdir {HOME}/datasets
+%cd {HOME}/datasets
+
+from google.colab import userdata
+from roboflow import Roboflow
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="YOUR_API_KEY")
+project = rf.workspace("poolsearch2024").project("pool_searching")
+version = project.version(3)
+dataset = version.download("yolov11")
+'''
 
 ## Training
 - what network, how trained, what parameters
