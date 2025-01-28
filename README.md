@@ -172,6 +172,13 @@ For the test dataset, the model detected:
 
 
 ## People
+
+### Annotations & Training Scripts:
 __Yerbiff__ - [Github](https://github.com/Yerbiff) (Jarosław Kuźma 147617)
 
 __the_HaUBe__ - [Github](https://github.com/theHaUBe) (Hubert Górecki 147599)
+
+### Annotations:
+__JJayU__ - [Github](https://https://github.com/JJayU) (Jakub Junkiert 147550)
+
+__MaksymilianKlemen__ - [Github](https://github.com/MaksymilianKlemen) (Maksymilian Klemenczak)
