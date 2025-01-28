@@ -5,7 +5,7 @@
 
 ## Dataset
 - photos extracted from QGIS - Poznan 2023 aerial orthophoto high resolution
-- 6382 annotations [376 free-standing-pool, 36 permanent-pool, 18 pond, 5953 none]
+- 6382 annotations [420 free-standing-pool, 36 permanent-pool, 18 pond, 5908 none]
 - resolution: 10 cm/pixel
 - input window size: 512x512 pixels
 - dataset with annotations in [roboflow](https://app.roboflow.com/poolsearch2024/pool_searching/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
@@ -159,8 +159,9 @@ For the test dataset, the model detected:
 - 1 out of 2 permanent pools
 
 ## Trained model in ONNX ready for `Deepness` plugin
-- model uploaded to [PUTCloud](https://chmura.student.put.poznan.pl/s/zq8XcdXL15uYN9z)
-- script used to convert the model to ONNX and add the metadata to it - ONNX_convert.py
+- model uploaded to [PUTCloud](https://chmura.student.put.poznan.pl/s/w30VPTu2DI8VWVD)
+- script used to convert the model to ONNX - ONNX_convert.py
+- script used to add the metadata to it - metadata.py
 
 ## Demo instructions and video
 ![xd2_QGIS_2025-01-24_15-39-06](https://github.com/user-attachments/assets/b2c32c1d-9191-49b4-bc18-8da398ff1974)
@@ -179,6 +180,6 @@ __Yerbiff__ - [Github](https://github.com/Yerbiff) (Jarosław Kuźma 147617)
 __the_HaUBe__ - [Github](https://github.com/theHaUBe) (Hubert Górecki 147599)
 
 ### Annotations:
-__JJayU__ - [Github](https://https://github.com/JJayU) (Jakub Junkiert 147550)
+__JJayU__ - [Github](https://github.com/JJayU) (Jakub Junkiert 147550)
 
-__MaksymilianKlemen__ - [Github](https://github.com/MaksymilianKlemen) (Maksymilian Klemenczak)
+__MaksymilianKlemen__ - [Github](github.com/MaksymilianKlemen) (Maksymilian Klemenczak)
